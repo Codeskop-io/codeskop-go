@@ -3,7 +3,7 @@
 Errors, panics, incoming requests and outgoing HTTP calls from your Go services, in Codeskop. Go 1.23+, standard library only (Gin and Echo integrations are separate packages).
 
 ```bash
-go get github.com/Codeskop-io/codeskop-go
+go get github.com/Codeskop-io/codeskop-go@v0.1.0   # or @latest
 ```
 
 ```go
@@ -40,6 +40,10 @@ client := &http.Client{Transport: codeskop.Transport(http.DefaultTransport)}
 `APIKey`, `Endpoint`, `Environment`, `Release` (auto-detected from common CI/host variables), `DisableRequests`, `DisableOutgoing`, `IgnoreRoutes`, `IgnoreErrors`, `BeforeSend`, `DisableUserID`, `Debug`. Environment variables: `CODESKOP_API_KEY`, `CODESKOP_ENDPOINT`, `CODESKOP_ENVIRONMENT`, `CODESKOP_RELEASE`.
 
 Never captured: request or response bodies, cookies, `Authorization` headers, query strings.
+
+## Releasing
+
+Go modules are published by tagging: merge to `main`, update `CHANGELOG.md` and `Version` in `client.go`, then push a tag `vX.Y.Z`. The repository must be public for `proxy.golang.org` and pkg.go.dev to serve it; request indexing with `GOPROXY=https://proxy.golang.org go list -m github.com/Codeskop-io/codeskop-go@vX.Y.Z`.
 
 ## License
 

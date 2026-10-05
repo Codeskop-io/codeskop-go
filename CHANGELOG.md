@@ -2,7 +2,7 @@
 
 ## 0.1.0 (beta), 2026-10-05
 
-First release.
+First release. Install with `go get github.com/Codeskop-io/codeskop-go@v0.1.0`.
 
 - Errors: `CaptureError` with the caller's stack, wrapped-error cause chains, panics via the middleware or `defer codeskop.Recover(ctx)`.
 - Incoming requests (`http_request`): `codeskop.Middleware` for `net/http` (ServeMux patterns), `codeskopgin.Middleware`, `codeskopecho.Middleware`.
