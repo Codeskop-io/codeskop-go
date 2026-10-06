@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1, 2026-10-06
+
+- Contact email is now support@codeskop.com. Install with `go get github.com/Codeskop-io/codeskop-go@v0.1.1`.
+
 ## 0.1.0 (beta), 2026-10-05
 
 First release. Install with `go get github.com/Codeskop-io/codeskop-go@v0.1.0`.
