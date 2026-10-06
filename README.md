@@ -3,7 +3,7 @@
 Errors, panics, incoming requests and outgoing HTTP calls from your Go services, in Codeskop. Go 1.23+, standard library only (Gin and Echo integrations are separate packages).
 
 ```bash
-go get github.com/Codeskop-io/codeskop-go@v0.1.0   # or @latest
+go get github.com/Codeskop-io/codeskop-go@v0.1.1   # or @latest
 ```
 
 ```go
