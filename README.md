@@ -207,7 +207,7 @@ Monitor your mobile apps, web apps and backend services in one dashboard:
 | Python | `codeskop` | [Docs](https://www.codeskop.com/docs/server/python?utm_source=github&utm_medium=readme&utm_campaign=codeskop-go) · [GitHub](https://github.com/Codeskop-io/codeskop-python) |
 | Node.js | `@codeskop/node` | [Docs](https://www.codeskop.com/docs/server/node?utm_source=github&utm_medium=readme&utm_campaign=codeskop-go) · [GitHub](https://github.com/Codeskop-io/codeskop-node) |
 | Java and Kotlin (JVM) | `com.codeskop.sdk:codeskop-server` | [Docs](https://www.codeskop.com/docs/server/java?utm_source=github&utm_medium=readme&utm_campaign=codeskop-go) · [GitHub](https://github.com/Codeskop-io/codeskop-jvm) |
-| PHP (beta) | `codeskop/codeskop-php` | [Docs](https://www.codeskop.com/docs/server/php?utm_source=github&utm_medium=readme&utm_campaign=codeskop-go) · [GitHub](https://github.com/Codeskop-io/codeskop-php) |
+| PHP | `codeskop/codeskop-php` | [Docs](https://www.codeskop.com/docs/server/php?utm_source=github&utm_medium=readme&utm_campaign=codeskop-go) · [GitHub](https://github.com/Codeskop-io/codeskop-php) |
 | Any other language | OpenTelemetry (OTLP) or HTTPS | [OpenTelemetry](https://www.codeskop.com/docs/server/opentelemetry?utm_source=github&utm_medium=readme&utm_campaign=codeskop-go) · [Ingest API](https://www.codeskop.com/docs/reference/ingest-api?utm_source=github&utm_medium=readme&utm_campaign=codeskop-go) |
 
 ## Help
